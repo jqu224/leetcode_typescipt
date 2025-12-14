@@ -75,8 +75,8 @@ leetcode_typescript/
 
 ```bash
 # Clone the repository
-git clone https://github.com/jqu224/leetcode_typescipt.git
-cd leetcode_typescipt
+git clone https://github.com/jqu224/leetcode_typescript.git
+cd leetcode_typescript
 
 # Install dependencies
 npm install

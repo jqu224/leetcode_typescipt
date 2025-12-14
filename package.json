@@ -1,5 +1,5 @@
 {
-  "name": "leetcode_typescipt",
+  "name": "leetcode_typescript",
   "version": "1.0.0",
   "description": "TypeScript exercise repository with atomic method implementations",
   "main": "dist/index.js",

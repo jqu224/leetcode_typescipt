@@ -5,13 +5,6 @@ yarn.lock
 
 # Build output
 dist/
-*.js
-*.js.map
-*.d.ts
-*.d.ts.map
-
-# Keep example JS files in dist (they're compiled)
-!dist/**/*.js
 
 # IDE
 .vscode/
