@@ -10,7 +10,9 @@
     "clean": "rm -rf dist",
     "example:array": "npm run build && node dist/examples/array-methods.js",
     "example:utility": "npm run build && node dist/examples/utility-methods.js",
-    "example:set": "npm run build && node dist/examples/set-methods.js"
+    "example:set": "npm run build && node dist/examples/set-methods.js",
+    "example:combined": "npm run build && node dist/examples/combined-example.js",
+    "examples": "npm run example:array && npm run example:utility && npm run example:set && npm run example:combined"
   },
   "keywords": ["typescript", "exercises", "learning", "array-methods"],
   "author": "",

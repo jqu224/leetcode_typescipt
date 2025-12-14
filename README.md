@@ -56,7 +56,8 @@ leetcode_typescript/
 │   ├── examples/             # Practical usage examples
 │   │   ├── array-methods.ts
 │   │   ├── utility-methods.ts
-│   │   └── set-methods.ts
+│   │   ├── set-methods.ts
+│   │   └── combined-example.ts # Real-world data processing examples
 │   └── index.ts              # Main export file
 ├── dist/                     # Compiled JavaScript (generated)
 ├── package.json
@@ -138,6 +139,12 @@ npm run example:utility
 
 # Run set methods examples
 npm run example:set
+
+# Run combined real-world example
+npm run example:combined
+
+# Run all examples
+npm run examples
 ```
 
 ## 📝 Usage Examples
@@ -195,7 +202,8 @@ console.log(unique(duplicates));       // [1, 2, 3]
 2. **Explore Utility Functions**: Learn common data processing patterns
 3. **Master Set Operations**: Understand mathematical set operations
 4. **Run Examples**: Execute the example files to see methods in action
-5. **Experiment**: Modify examples and create your own use cases
+5. **Study Combined Example**: See real-world applications combining multiple methods
+6. **Experiment**: Modify examples and create your own use cases
 
 ## 🛠️ Development
 
@@ -207,6 +215,8 @@ console.log(unique(duplicates));       // [1, 2, 3]
 - `npm run example:array` - Run array methods examples
 - `npm run example:utility` - Run utility methods examples
 - `npm run example:set` - Run set methods examples
+- `npm run example:combined` - Run combined real-world examples
+- `npm run examples` - Run all examples
 
 ### TypeScript Configuration
 
