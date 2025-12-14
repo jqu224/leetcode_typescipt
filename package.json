@@ -1,0 +1,22 @@
+{
+  "name": "leetcode_typescipt",
+  "version": "1.0.0",
+  "description": "TypeScript exercise repository with atomic method implementations",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "clean": "rm -rf dist",
+    "example:array": "npm run build && node dist/examples/array-methods.js",
+    "example:utility": "npm run build && node dist/examples/utility-methods.js",
+    "example:set": "npm run build && node dist/examples/set-methods.js"
+  },
+  "keywords": ["typescript", "exercises", "learning", "array-methods"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.0.2",
+    "typescript": "^5.9.3"
+  }
+}
